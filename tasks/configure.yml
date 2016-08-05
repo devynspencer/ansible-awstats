@@ -1,0 +1,11 @@
+---
+
+- name: configure awstats for {{ item.log }}
+  template: >
+    src=templates/awstats.conf.j2
+    dest=/etc/awstats/awstats.{{ item.log | basename }}.conf
+    owner=root
+    group=root
+    mode=0644
+
+  with_items: "{{ awstats_analyzed }}"

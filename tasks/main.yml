@@ -7,3 +7,7 @@
 - name: include installation tasks
   include: install.yml
   tags: ["awstats:install", "install"]
+
+- name: include configuration tasks
+  include: configure.yml
+  tags: ["awstats:configure", "configure"]
