@@ -1,0 +1,22 @@
+---
+
+galaxy_info:
+  author: Devyn Spencer
+  description: Install and configure awstats.
+  company: The OpenNMS Group, Inc.
+  license: MIT
+  min_ansible_version: 2.1
+
+  platforms:
+    - name: EL
+      versions: ["6", "7"]
+
+    - name: Ubuntu
+      versions: ["14.04", "16.04"]
+
+    - name: Debian
+      versions: ["7.10", "8.5"]
+
+  galaxy_tags: ["awstats"]
+
+dependencies: []
