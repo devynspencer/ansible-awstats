@@ -1,0 +1,6 @@
+---
+
+- name: install awstats
+  package: >
+    name=awstats
+    state=installed
