@@ -1,0 +1,5 @@
+---
+
+- name: include setup tasks
+  include: setup.yml
+  tags: ["awstats:setup", "setup"]
